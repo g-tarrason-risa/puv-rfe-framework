@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "puv"
+version = "0.1.0"
+description = "Posterior Urethral Valves Project - data preparation and modelling package"
+readme = "README.md"
+authors = [{ name = "Gabriel Risa" }]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+
+# Core dependencies covered by anaconda 
+
+[tool.setuptools.packages.find]
+where = ["src"]
